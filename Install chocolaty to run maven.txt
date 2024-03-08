@@ -1,0 +1,13 @@
+Install Chocolatey
+Full process https://phoenixnap.com/kb/install-maven-windows
+
++
+
+
+Step 1: Open powershell with run as administrator.
+Step 2: Delete any folder chocolaty if present on address C:\ProgramData\chocolatey
+Step 3: Set-ExecutionPolicy Bypass -Scope Process
+Step 4: Press y
+Step 5: Get-ExecutionPolicy check is that Bypass status or not if no repeat above steps
+Step 6: Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
+Step 7: open cmd and type choco to check is that installed or not
