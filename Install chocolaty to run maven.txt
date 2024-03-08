@@ -1,7 +1,7 @@
 Actuall Blog: https://www.javaguides.net/2020/04/spring-boot-mysql-jpa-hibernate-restful-crud-api-tutorial.html
+     https://start.spring.io/
 	Install Chocolatey
 		Full process https://phoenixnap.com/kb/install-maven-windows
-		+
 			Step 1: Open powershell with run as administrator.
 			Step 2: Delete any folder chocolaty if present on address C:\ProgramData\chocolatey
 			Step 3: Set-ExecutionPolicy Bypass -Scope Process
